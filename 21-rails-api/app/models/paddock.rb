@@ -1,0 +1,2 @@
+class Paddock < ApplicationRecord
+end

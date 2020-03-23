@@ -1,0 +1,1579 @@
+Started GET "/" for ::1 at 2020-03-23 09:39:09 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/railties-5.2.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/railties-5.2.4.2/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-23 09:41:06 -0700
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.2) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:41:13 -0700
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.2) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePaddocks (20200323164035)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "paddocks" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20200323164035_create_paddocks.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200323164035"]]
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateDinosaurs (20200323164103)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "dinosaurs" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "species" varchar, "paddock_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_ad7957a72d"
+FOREIGN KEY ("paddock_id")
+  REFERENCES "paddocks" ("id")
+)[0m
+  ↳ db/migrate/20200323164103_create_dinosaurs.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_dinosaurs_on_paddock_id" ON "dinosaurs" ("paddock_id")[0m
+  ↳ db/migrate/20200323164103_create_dinosaurs.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200323164103"]]
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-03-23 16:41:24.649942"], ["updated_at", "2020-03-23 16:41:24.649942"]]
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:41:28 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for DinosaursController):
+  
+actionpack (5.2.4.2) lib/abstract_controller/base.rb:129:in `process'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (5.2.4.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mPaddock Load (0.2ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPaddock Create (0.4ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "North Paddock"], ["created_at", "2020-03-23 16:44:02.658601"], ["updated_at", "2020-03-23 16:44:02.658601"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPaddock Create (0.2ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "East Paddock"], ["created_at", "2020-03-23 16:44:02.660976"], ["updated_at", "2020-03-23 16:44:02.660976"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:16
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:44:07 -0700
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for DinosaursController):
+  
+actionpack (5.2.4.2) lib/abstract_controller/base.rb:129:in `process'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (5.2.4.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:44:38 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:4
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:44:40 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:4
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:44:41 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:4
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:44:54 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:44:54 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:44:55 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+  [1m[36mDinosaur Load (0.3ms)[0m  [1m[34mSELECT  "dinosaurs".* FROM "dinosaurs" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mPaddock Destroy (0.3ms)[0m  [1m[31mDELETE FROM "paddocks" WHERE "paddocks"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mPaddock Destroy (0.2ms)[0m  [1m[31mDELETE FROM "paddocks" WHERE "paddocks"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPaddock Create (0.2ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "North Paddock"], ["created_at", "2020-03-23 16:45:19.211904"], ["updated_at", "2020-03-23 16:45:19.211904"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPaddock Create (0.2ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "East Paddock"], ["created_at", "2020-03-23 16:45:19.213480"], ["updated_at", "2020-03-23 16:45:19.213480"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mDinosaur Destroy (0.1ms)[0m  [1m[31mDELETE FROM "dinosaurs"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mPaddock Destroy (0.9ms)[0m  [1m[31mDELETE FROM "paddocks"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPaddock Create (0.2ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "North Paddock"], ["created_at", "2020-03-23 16:45:38.006472"], ["updated_at", "2020-03-23 16:45:38.006472"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPaddock Create (0.2ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "East Paddock"], ["created_at", "2020-03-23 16:45:38.008656"], ["updated_at", "2020-03-23 16:45:38.008656"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:16
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:45:52 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:45:53 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:45:54 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:45:54 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:45:54 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:45:54 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:45:54 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:45:54 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+  [1m[36mDinosaur Load (0.4ms)[0m  [1m[34mSELECT  "dinosaurs".* FROM "dinosaurs" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mDinosaur Destroy (0.1ms)[0m  [1m[31mDELETE FROM "dinosaurs"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mPaddock Destroy (0.9ms)[0m  [1m[31mDELETE FROM "paddocks"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPaddock Create (0.2ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "North Paddock"], ["created_at", "2020-03-23 16:47:15.774057"], ["updated_at", "2020-03-23 16:47:15.774057"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPaddock Create (0.2ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "East Paddock"], ["created_at", "2020-03-23 16:47:15.775747"], ["updated_at", "2020-03-23 16:47:15.775747"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mDinosaur Create (0.2ms)[0m  [1m[32mINSERT INTO "dinosaurs" ("species", "paddock_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["species", "Raptor"], ["paddock_id", 7], ["created_at", "2020-03-23 16:47:15.782102"], ["updated_at", "2020-03-23 16:47:15.782102"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mDinosaur Create (0.2ms)[0m  [1m[32mINSERT INTO "dinosaurs" ("species", "paddock_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["species", "T. rex"], ["paddock_id", 7], ["created_at", "2020-03-23 16:47:15.794358"], ["updated_at", "2020-03-23 16:47:15.794358"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:47:18 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:47:38 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:47:50 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:47:58 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:49:23 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:50:00 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:52:02 -0700
+Processing by DinosaursController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant DinosaursController::DinosaurSerializer):
+  
+app/controllers/dinosaurs_controller.rb:5:in `index'
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:53:02 -0700
+  
+SyntaxError (/Users/jfranti/Desktop/jurassic/app/controllers/dinosaurs_controller.rb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...zer: DinosaurSerializer, root :dinosaur
+...                              ^):
+  
+app/controllers/dinosaurs_controller.rb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:54:36 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/Users/jfranti/Desktop/jurassic/app/controllers/dinosaurs_controller.rb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+...zer: DinosaurSerializer, root :dinosaur
+...                              ^):
+  
+app/controllers/dinosaurs_controller.rb:5: syntax error, unexpected tSYMBEG, expecting do or '{' or '('
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:55:03 -0700
+Processing by DinosaursController#index as */*
+[active_model_serializers] Rendered DinosaurSerializer with ActiveModelSerializers::Adapter::Attributes (1.92ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `model_name' for Dinosaur::ActiveRecord_Relation:Class):
+  
+app/controllers/dinosaurs_controller.rb:5:in `index'
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:55:14 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.03ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `paddock_id' for #<DinosaurSerializer:0x00007fd44dc895a0>
+Did you mean?  paddock):
+  
+app/serializers/dinosaur_serializer.rb:5:in `paddock'
+app/controllers/dinosaurs_controller.rb:5:in `index'
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:55:59 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.69ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.4ms)
+
+
+  
+NoMethodError (undefined method `paddock_id' for #<DinosaurSerializer:0x00007fd44b65eba0>
+Did you mean?  paddock):
+  
+app/serializers/dinosaur_serializer.rb:5:in `paddock'
+app/controllers/dinosaurs_controller.rb:5:in `index'
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:09 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.2ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.21ms)
+Completed 200 OK in 16ms (Views: 12.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:19 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.29ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:39 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.3ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.26ms)
+Completed 200 OK in 13ms (Views: 9.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:56 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.49ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:57 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.33ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:57 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.59ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:58 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.81ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:58 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.3ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:58 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.88ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:59 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.16ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:56:59 -0700
+Processing by DinosaursController#index as HTML
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.29ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:57:23 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.65ms)
+Completed 200 OK in 17ms (Views: 13.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:58:05 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.41ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:58:23 -0700
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.88ms)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 09:59:01 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by DinosaursController#index as */*
+  [1m[36mDinosaur Load (0.1ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.62ms)
+Completed 200 OK in 17ms (Views: 13.1ms | ActiveRecord: 0.8ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePaddocks (20200323171310)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20200323171310_create_paddocks.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "paddocks" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20200323171310_create_paddocks.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+Started GET "/paddocks" for ::1 at 2020-03-23 10:17:25 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.2) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePaddocks (20200323171310)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20200323171310_create_paddocks.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "paddocks" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20200323171310_create_paddocks.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+Started GET "/paddocks" for ::1 at 2020-03-23 10:18:06 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.2) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePaddocks (20200323171310)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20200323171310_create_paddocks.rb:3
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "paddocks" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20200323171310_create_paddocks.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePaddocks (20200323171310)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "paddocks" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20200323171310_create_paddocks.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200323171310"]]
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateDinosaurs (20200323171340)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "dinosaurs" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "species" varchar, "paddock_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_ad7957a72d"
+FOREIGN KEY ("paddock_id")
+  REFERENCES "paddocks" ("id")
+)[0m
+  ↳ db/migrate/20200323171340_create_dinosaurs.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE  INDEX "index_dinosaurs_on_paddock_id" ON "dinosaurs" ("paddock_id")[0m
+  ↳ db/migrate/20200323171340_create_dinosaurs.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200323171340"]]
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-03-23 17:20:21.743551"], ["updated_at", "2020-03-23 17:20:21.743551"]]
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/paddocks" for ::1 at 2020-03-23 10:20:43 -0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for PaddocksController):
+  
+actionpack (5.2.4.2) lib/abstract_controller/base.rb:129:in `process'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (5.2.4.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/paddocks" for ::1 at 2020-03-23 10:21:43 -0700
+Processing by PaddocksController#index as */*
+  Parameters: {"paddock"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/paddocks" for ::1 at 2020-03-23 10:22:20 -0700
+Processing by PaddocksController#index as */*
+  Parameters: {"paddock"=>{}}
+  [1m[36mPaddock Load (0.2ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+  ↳ app/controllers/paddocks_controller.rb:5
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/paddocks" for ::1 at 2020-03-23 10:22:38 -0700
+Processing by PaddocksController#index as */*
+  Parameters: {"paddock"=>{}}
+  [1m[36mPaddock Load (0.2ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+  ↳ app/controllers/paddocks_controller.rb:5
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mPaddock Destroy (0.7ms)[0m  [1m[31mDELETE FROM "paddocks"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mPaddock Create (0.6ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "North Paddock"], ["created_at", "2020-03-23 17:23:45.593669"], ["updated_at", "2020-03-23 17:23:45.593669"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPaddock Create (0.6ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "East Paddock"], ["created_at", "2020-03-23 17:23:45.598205"], ["updated_at", "2020-03-23 17:23:45.598205"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+Started GET "/paddocks" for ::1 at 2020-03-23 10:23:48 -0700
+Processing by PaddocksController#index as */*
+  Parameters: {"paddock"=>{}}
+  [1m[36mPaddock Load (0.2ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+  ↳ app/controllers/paddocks_controller.rb:5
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/paddocks" for ::1 at 2020-03-23 10:26:39 -0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Error occurred while parsing request parameters.
+Contents:
+
+{
+	paddock: {
+		name: "South Paddock"
+	}
+}
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+	paddock: {
+		name: "South Paddock"
+	}
+}'):
+  
+actionpack (5.2.4.2) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.4.2) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.4.2) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (5.2.4.2) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.4.2) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.4.2) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.4.2) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.4.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.2) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (5.2.4.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/paddocks" for ::1 at 2020-03-23 10:27:32 -0700
+Error occurred while parsing request parameters.
+Contents:
+
+{
+	paddock: {
+		"name": "South Paddock"
+	}
+}
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+	paddock: {
+		"name": "South Paddock"
+	}
+}'):
+  
+actionpack (5.2.4.2) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.4.2) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.4.2) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (5.2.4.2) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.4.2) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.4.2) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.4.2) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.4.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.2) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (5.2.4.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/paddocks" for ::1 at 2020-03-23 10:27:59 -0700
+Error occurred while parsing request parameters.
+Contents:
+
+{
+	paddock: {
+		"name": "South Paddock"
+	}
+}
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+	paddock: {
+		"name": "South Paddock"
+	}
+}'):
+  
+actionpack (5.2.4.2) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.4.2) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.4.2) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch'
+rack (2.2.2) lib/rack/request.rb:69:in `fetch_header'
+actionpack (5.2.4.2) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.4.2) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.4.2) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.4.2) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.4.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.2) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (5.2.4.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/paddocks" for ::1 at 2020-03-23 10:28:16 -0700
+Processing by PaddocksController#index as */*
+  Parameters: {"paddock"=>{}}
+  [1m[36mPaddock Load (0.3ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+  ↳ app/controllers/paddocks_controller.rb:5
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/paddocks" for ::1 at 2020-03-23 10:28:31 -0700
+Processing by PaddocksController#create as JSON
+  Parameters: {"paddock"=>{"name"=>"South Paddock"}}
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/paddocks" for ::1 at 2020-03-23 10:29:37 -0700
+Processing by PaddocksController#create as JSON
+  Parameters: {"paddock"=>{"name"=>"South Paddock"}}
+Completed 500 Internal Server Error in 9ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/paddocks_controller.rb:10:in `create'
+Started GET "/paddocks" for ::1 at 2020-03-23 10:29:48 -0700
+Processing by PaddocksController#index as */*
+  Parameters: {"paddock"=>{}}
+  [1m[36mPaddock Load (0.3ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+  ↳ app/controllers/paddocks_controller.rb:5
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/paddocks" for ::1 at 2020-03-23 10:30:01 -0700
+Processing by PaddocksController#create as JSON
+  Parameters: {"paddock"=>{"name"=>"South Paddock"}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/paddocks" for ::1 at 2020-03-23 10:31:24 -0700
+Processing by PaddocksController#create as JSON
+  Parameters: {"paddock"=>{"name"=>"South Paddock"}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/paddocks" for ::1 at 2020-03-23 10:31:43 -0700
+Processing by PaddocksController#create as JSON
+  Parameters: {"paddock"=>{"name"=>"South Paddock"}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 2.8ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/paddocks_controller.rb:9:in `create'
+Started GET "/paddocks" for ::1 at 2020-03-23 10:31:52 -0700
+Processing by PaddocksController#index as */*
+  Parameters: {"paddock"=>{}}
+  [1m[36mPaddock Load (0.2ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+  ↳ app/controllers/paddocks_controller.rb:5
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/paddocks" for ::1 at 2020-03-23 10:33:07 -0700
+Processing by PaddocksController#create as JSON
+  Parameters: {"name"=>"South Paddock", "paddock"=>{"name"=>"South Paddock"}}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.4ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/paddocks_controller.rb:9:in `create'
+Started POST "/paddocks" for ::1 at 2020-03-23 10:34:09 -0700
+Processing by PaddocksController#create as JSON
+  Parameters: {"paddock"=>{"name"=>"South Paddock"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/paddocks_controller.rb:9
+  [1m[36mPaddock Create (1.0ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "South Paddock"], ["created_at", "2020-03-23 17:34:09.428565"], ["updated_at", "2020-03-23 17:34:09.428565"]]
+  ↳ app/controllers/paddocks_controller.rb:9
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/paddocks_controller.rb:9
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/paddocks" for ::1 at 2020-03-23 10:34:23 -0700
+Processing by PaddocksController#index as */*
+  Parameters: {"paddock"=>{}}
+  [1m[36mPaddock Load (0.3ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+  ↳ app/controllers/paddocks_controller.rb:5
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/paddocks" for ::1 at 2020-03-23 10:35:53 -0700
+Processing by PaddocksController#create as JSON
+  Parameters: {"paddock"=>{"name"=>"West Paddock"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/paddocks_controller.rb:9
+  [1m[36mPaddock Create (0.6ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "West Paddock"], ["created_at", "2020-03-23 17:35:53.821057"], ["updated_at", "2020-03-23 17:35:53.821057"]]
+  ↳ app/controllers/paddocks_controller.rb:9
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/paddocks_controller.rb:9
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 5.3ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mPaddock Destroy (1.9ms)[0m  [1m[31mDELETE FROM "paddocks"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mPaddock Create (0.5ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "North Paddock"], ["created_at", "2020-03-23 17:38:00.287604"], ["updated_at", "2020-03-23 17:38:00.287604"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPaddock Create (0.6ms)[0m  [1m[32mINSERT INTO "paddocks" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "East Paddock"], ["created_at", "2020-03-23 17:38:00.292570"], ["updated_at", "2020-03-23 17:38:00.292570"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mDinosaur Create (0.6ms)[0m  [1m[32mINSERT INTO "dinosaurs" ("species", "paddock_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["species", "T. rex"], ["paddock_id", 5], ["created_at", "2020-03-23 17:38:00.311725"], ["updated_at", "2020-03-23 17:38:00.311725"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mDinosaur Create (1.5ms)[0m  [1m[32mINSERT INTO "dinosaurs" ("species", "paddock_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["species", "Stegosaurus"], ["paddock_id", 6], ["created_at", "2020-03-23 17:38:00.315506"], ["updated_at", "2020-03-23 17:38:00.315506"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mDinosaur Create (2.0ms)[0m  [1m[32mINSERT INTO "dinosaurs" ("species", "paddock_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["species", "Triceratops"], ["paddock_id", 6], ["created_at", "2020-03-23 17:38:00.347231"], ["updated_at", "2020-03-23 17:38:00.347231"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+Started GET "/paddocks" for ::1 at 2020-03-23 10:38:15 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by PaddocksController#index as */*
+  Parameters: {"paddock"=>{}}
+  [1m[36mPaddock Load (0.4ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+  ↳ app/controllers/paddocks_controller.rb:5
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 10:38:22 -0700
+Processing by DinosaursController#index as */*
+  Parameters: {"dinosaur"=>{}}
+  [1m[36mDinosaur Load (0.2ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 10:40:47 -0700
+Processing by DinosaursController#index as */*
+  Parameters: {"dinosaur"=>{}}
+  [1m[36mDinosaur Load (0.2ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 10:41:25 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/Users/jfranti/Desktop/jurassic/app/controllers/dinosaurs_controller.rb:5: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+...h_serializer DinosaurSerializer
+...             ^~~~~~~~~~~~~~~~~~):
+  
+app/controllers/dinosaurs_controller.rb:5: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+Started GET "/dinosaurs" for ::1 at 2020-03-23 10:41:40 -0700
+  
+SyntaxError (/Users/jfranti/Desktop/jurassic/app/controllers/dinosaurs_controller.rb:5: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+...h_serializer DinosaurSerializer
+...             ^~~~~~~~~~~~~~~~~~):
+  
+app/controllers/dinosaurs_controller.rb:5: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+Started GET "/dinosaurs" for ::1 at 2020-03-23 10:41:53 -0700
+  
+SyntaxError (/Users/jfranti/Desktop/jurassic/app/controllers/dinosaurs_controller.rb:5: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+...h_serializer DinosaurSerializer
+...             ^~~~~~~~~~~~~~~~~~):
+  
+app/controllers/dinosaurs_controller.rb:5: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+Started GET "/dinosaurs" for ::1 at 2020-03-23 10:42:28 -0700
+Processing by DinosaursController#index as */*
+  Parameters: {"dinosaur"=>{}}
+  [1m[36mDinosaur Load (0.2ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.07ms)
+Completed 200 OK in 20ms (Views: 15.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 10:42:52 -0700
+Processing by DinosaursController#index as */*
+  Parameters: {"dinosaur"=>{}}
+  [1m[36mDinosaur Load (0.2ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.29ms)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/dinosaurs" for ::1 at 2020-03-23 10:43:13 -0700
+Processing by DinosaursController#index as */*
+  Parameters: {"dinosaur"=>{}}
+  [1m[36mDinosaur Load (0.2ms)[0m  [1m[34mSELECT "dinosaurs".* FROM "dinosaurs"[0m
+  ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.2ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers]   [1m[36mCACHE Paddock Load (0.0ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (33.2ms)
+Completed 200 OK in 44ms (Views: 38.6ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/dinosaurs/1" for ::1 at 2020-03-23 10:44:50 -0700
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for DinosaursController):
+  
+actionpack (5.2.4.2) lib/abstract_controller/base.rb:129:in `process'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+activerecord (5.2.4.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/dinosaurs/1" for ::1 at 2020-03-23 10:44:55 -0700
+Processing by DinosaursController#show as */*
+  Parameters: {"id"=>"1", "dinosaur"=>{}}
+  [1m[36mDinosaur Load (0.3ms)[0m  [1m[34mSELECT  "dinosaurs".* FROM "dinosaurs" WHERE "dinosaurs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/dinosaurs_controller.rb:9
+[active_model_serializers]   [1m[36mPaddock Load (0.2ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:10
+[active_model_serializers] Rendered DinosaurSerializer with ActiveModelSerializers::Adapter::Attributes (13.98ms)
+Completed 200 OK in 26ms (Views: 13.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/dinosaurs/2" for ::1 at 2020-03-23 10:45:01 -0700
+Processing by DinosaursController#show as */*
+  Parameters: {"id"=>"2", "dinosaur"=>{}}
+  [1m[36mDinosaur Load (0.3ms)[0m  [1m[34mSELECT  "dinosaurs".* FROM "dinosaurs" WHERE "dinosaurs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/dinosaurs_controller.rb:9
+[active_model_serializers]   [1m[36mPaddock Load (0.3ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/dinosaurs_controller.rb:10
+[active_model_serializers] Rendered DinosaurSerializer with ActiveModelSerializers::Adapter::Attributes (3.3ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/dinosaurs/2" for ::1 at 2020-03-23 10:52:32 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::DinosaursController#show as */*
+  Parameters: {"id"=>"2", "dinosaur"=>{}}
+  [1m[36mDinosaur Load (0.5ms)[0m  [1m[34mSELECT  "dinosaurs".* FROM "dinosaurs" WHERE "dinosaurs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/dinosaurs_controller.rb:9
+[active_model_serializers]   [1m[36mPaddock Load (0.3ms)[0m  [1m[34mSELECT  "paddocks".* FROM "paddocks" WHERE "paddocks"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/dinosaurs_controller.rb:10
+[active_model_serializers] Rendered DinosaurSerializer with ActiveModelSerializers::Adapter::Attributes (28.19ms)
+Completed 200 OK in 62ms (Views: 35.6ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for ::1 at 2020-03-23 13:46:30 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/railties-5.2.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jfranti/.rvm/gems/ruby-2.6.1/gems/railties-5.2.4.2/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/paddocks" for ::1 at 2020-03-23 13:46:32 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/paddocks"):
+  
+actionpack (5.2.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/v1/paddocks" for ::1 at 2020-03-23 13:46:49 -0700
+Processing by Api::V1::PaddocksController#index as HTML
+[active_model_serializers]   [1m[36mPaddock Load (0.2ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/paddocks_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.45ms)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/paddocks" for ::1 at 2020-03-23 14:10:48 -0700
+Processing by Api::V1::PaddocksController#index as HTML
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/paddocks_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.7ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/v1/paddocks" for ::1 at 2020-03-23 14:10:49 -0700
+Processing by Api::V1::PaddocksController#index as HTML
+[active_model_serializers]   [1m[36mPaddock Load (0.2ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/paddocks_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.42ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/paddocks" for ::1 at 2020-03-23 14:11:02 -0700
+Processing by Api::V1::PaddocksController#index as HTML
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/paddocks_controller.rb:5
+[active_model_serializers] Rendered PaddockSerializer with Hash (3.75ms)
+Completed 200 OK in 12ms (Views: 8.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/paddocks" for ::1 at 2020-03-23 14:11:03 -0700
+Processing by Api::V1::PaddocksController#index as HTML
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/paddocks_controller.rb:5
+[active_model_serializers] Rendered PaddockSerializer with Hash (0.8ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/v1/paddocks" for ::1 at 2020-03-23 14:11:03 -0700
+Processing by Api::V1::PaddocksController#index as HTML
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/paddocks_controller.rb:5
+[active_model_serializers] Rendered PaddockSerializer with Hash (0.76ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/v1/paddocks" for ::1 at 2020-03-23 14:11:04 -0700
+Processing by Api::V1::PaddocksController#index as HTML
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/paddocks_controller.rb:5
+[active_model_serializers] Rendered PaddockSerializer with Hash (0.77ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/v1/paddocks" for ::1 at 2020-03-23 14:11:04 -0700
+Processing by Api::V1::PaddocksController#index as HTML
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/paddocks_controller.rb:5
+[active_model_serializers] Rendered PaddockSerializer with Hash (0.93ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/v1/paddocks" for ::1 at 2020-03-23 14:11:04 -0700
+Processing by Api::V1::PaddocksController#index as HTML
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/paddocks_controller.rb:5
+[active_model_serializers] Rendered PaddockSerializer with Hash (0.77ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/v1/paddocks" for ::1 at 2020-03-23 14:11:04 -0700
+Processing by Api::V1::PaddocksController#index as HTML
+[active_model_serializers]   [1m[36mPaddock Load (0.1ms)[0m  [1m[34mSELECT "paddocks".* FROM "paddocks"[0m
+[active_model_serializers]   ↳ app/controllers/api/v1/paddocks_controller.rb:5
+[active_model_serializers] Rendered PaddockSerializer with Hash (0.84ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
