@@ -1,0 +1,1 @@
+export const ADD_STUDENT = "ADD_STUDENT"; //pass in a student object plz
